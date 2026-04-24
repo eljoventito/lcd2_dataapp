@@ -494,7 +494,7 @@ def tab_explorador(df: pd.DataFrame) -> None:
             r=stats_vals + [stats_vals[0]],
             theta=stats_labels + [stats_labels[0]],
             fill="toself",
-            fillcolor=color_tipo + "55",
+            fillcolor=color_tipo ,
             line={"color": color_tipo, "width": 2},
             name=poke["nombre"],
         ))
